@@ -11,8 +11,11 @@
 	height: 500px;
 	width: 100%;
 	overflow: hidden;
-	background: #ddd;
+	background: white;
 	color: #333;
+}
+.slides img {
+	border: 1px solid #4d4d4d;
 }
 
 .no-js .slides {
@@ -114,7 +117,7 @@
 	top: 0;
 }
 
-/* Show/Hide */
+/* Show/hidex */
 .slides > li.current,
 .slides > li.show {
 	visibility: visible;
@@ -143,8 +146,8 @@
 /* Move up */
 /***********************/
 .hidex[data-effect-out="moveUpOut"] .tiltview a {
-	-webkit-animation: moveUpOut 1.5s both;
-	animation: moveUpOut 1.5s both;
+	-webkit-animation: moveUpOut 0.7s both;
+	animation: moveUpOut 0.7s both;
 }
 
 .hidex[data-effect-out="moveUpOut"] .tiltview a:nth-child(2) {
@@ -176,8 +179,8 @@
 }
 
 .show[data-effect-in="moveUpIn"] .tiltview a {
-	-webkit-animation: moveUpIn 1.5s 0.5s both;
-	animation: moveUpIn 1.5s 0.5s both;
+	-webkit-animation: moveUpIn 1.0s 0.5s both;
+	animation: moveUpIn 1.0s 0.5s both;
 }
 
 .show[data-effect-in="moveUpIn"] .tiltview a:nth-child(2) {
@@ -219,8 +222,8 @@
 /* Move down */
 /***********************/
 .hidex[data-effect-out="moveDownOut"] .tiltview a {
-	-webkit-animation: moveDownOut 1.5s both;
-	animation: moveDownOut 1.5s both;
+	-webkit-animation: moveDownOut 1.0s both;
+	animation: moveDownOut 1.0s both;
 }
 
 .hidex[data-effect-out="moveDownOut"] .tiltview a:nth-child(2) {
@@ -252,8 +255,8 @@
 }
 
 .show[data-effect-in="moveDownIn"] .tiltview a {
-	-webkit-animation: moveDownIn 1.5s 0.5s both;
-	animation: moveDownIn 1.5s 0.5s both;
+	-webkit-animation: moveDownIn 1.0s 0.5s both;
+	animation: moveDownIn 1.0s 0.5s both;
 }
 
 .show[data-effect-in="moveDownIn"] .tiltview a:nth-child(2) {
@@ -295,8 +298,8 @@
 /* Slide up */
 /***********************/
 .hidex[data-effect-out="slideUpOut"] .tiltview a {
-	-webkit-animation: slideUpOut 1.5s both;
-	animation: slideUpOut 1.5s both;
+	-webkit-animation: slideUpOut 1.0s both;
+	animation: slideUpOut 1.0s both;
 }
 
 .hidex[data-effect-out="slideUpOut"] .tiltview a:nth-child(2) {
@@ -328,8 +331,8 @@
 }
 
 .show[data-effect-in="slideUpIn"] .tiltview a {
-	-webkit-animation: slideUpIn 1.5s 0.5s both;
-	animation: slideUpIn 1.5s 0.5s both;
+	-webkit-animation: slideUpIn 1.0s 0.5s both;
+	animation: slideUpIn 1.0s 0.5s both;
 }
 
 .show[data-effect-in="slideUpIn"] .tiltview a:nth-child(2) {
@@ -371,8 +374,8 @@
 /* Slide down */
 /***********************/
 .hidex[data-effect-out="slideDownOut"] .tiltview a {
-	-webkit-animation: slideDownOut 1.5s both;
-	animation: slideDownOut 1.5s both;
+	-webkit-animation: slideDownOut 1.0s both;
+	animation: slideDownOut 1.0s both;
 }
 
 .hidex[data-effect-out="slideDownOut"] .tiltview.row a:nth-child(2),
@@ -405,8 +408,8 @@
 }
 
 .show[data-effect-in="slideDownIn"] .tiltview a {
-	-webkit-animation: slideDownIn 1.5s 0.5s both;
-	animation: slideDownIn 1.5s 0.5s both;
+	-webkit-animation: slideDownIn 1.0s 0.5s both;
+	animation: slideDownIn 1.0s 0.5s both;
 }
 
 .show[data-effect-in="slideDownIn"] .tiltview.row a:nth-child(2),
@@ -449,8 +452,8 @@
 /* Slide left */
 /***********************/
 .hidex[data-effect-out="slideLeftOut"] .tiltview a {
-	-webkit-animation: slideLeftOut 1.5s both;
-	animation: slideLeftOut 1.5s both;
+	-webkit-animation: slideLeftOut 1.0s both;
+	animation: slideLeftOut 1.0s both;
 }
 
 .hidex[data-effect-out="slideLeftOut"] .tiltview a:nth-child(2) {
@@ -482,8 +485,8 @@
 }
 
 .show[data-effect-in="slideLeftIn"] .tiltview a {
-	-webkit-animation: slideLeftIn 1.5s 0.5s both;
-	animation: slideLeftIn 1.5s 0.5s both;
+	-webkit-animation: slideLeftIn 1.0s 0.5s both;
+	animation: slideLeftIn 1.0s 0.5s both;
 }
 
 .show[data-effect-in="slideLeftIn"] .tiltview a:nth-child(2) {
@@ -525,8 +528,8 @@
 /* Slide right */
 /***********************/
 .hidex[data-effect-out="slideRightOut"] .tiltview a {
-	-webkit-animation: slideRightOut 1.5s both;
-	animation: slideRightOut 1.5s both;
+	-webkit-animation: slideRightOut 1.0s both;
+	animation: slideRightOut 1.0s both;
 }
 
 .hidex[data-effect-out="slideRightOut"] .tiltview.col a:nth-child(2),
@@ -559,8 +562,8 @@
 }
 
 .show[data-effect-in="slideRightIn"] .tiltview a {
-	-webkit-animation: slideRightIn 1.5s 0.5s both;
-	animation: slideRightIn 1.5s 0.5s both;
+	-webkit-animation: slideRightIn 1.0s 0.5s both;
+	animation: slideRightIn 1.0s 0.5s both;
 }
 
 .show[data-effect-in="slideRightIn"] .tiltview.col a:nth-child(2),

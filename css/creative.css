@@ -15,12 +15,12 @@ hr {
 hr.light {
     border-color: #fff;
 }
-a {
-    color: rgba(95,158,160,.7);
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
+/*a {*/
+    /*color: rgba(95,158,160,.7);*/
+    /*-webkit-transition: all .35s;*/
+    /*-moz-transition: all .35s;*/
+    /*transition: all .35s;*/
+/*}*/
 a:hover,
 a:focus {
     color: rgba(95,158,160,.7);
