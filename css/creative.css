@@ -44,7 +44,7 @@ p {
     color: rgba(255,255,255,.7);
 }
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 aside {
     padding: 50px 0;
@@ -117,7 +117,7 @@ aside {
         background-color: #fff;
     }
     .navbar-default.affix .navbar-header .navbar-brand {
-        font-size: 14px;
+        font-size: 18px;
         color: rgba(95,158,160,.7);
     }
     .navbar-default.affix .navbar-header .navbar-brand:hover,
