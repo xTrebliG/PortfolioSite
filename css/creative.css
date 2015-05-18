@@ -13,7 +13,7 @@ hr {
     border-width: 3px;
 }
 hr.light {
-    border-color: #fff;
+    border-color: rgba(95,158,160,1);
 }
 /*a {*/
     /*color: rgba(95,158,160,.7);*/
@@ -34,14 +34,14 @@ p {
     line-height: 1.5;
 }
 .bg-primary {
-    background-color: rgba(95,158,160,.7);
+    background-color: white;
 }
 .bg-dark {
     color: #fff;
     background-color: #222;
 }
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: rgba(95,158,160,.7);
 }
 section {
     padding: 50px 0;
@@ -198,6 +198,7 @@ header .header-content .header-content-inner p {
 }
 .section-heading {
     margin-top: 0;
+    color: rgba(95,158,160,1);
 }
 .service-box {
     margin: 50px auto 0;
@@ -276,9 +277,9 @@ header .header-content .header-content-inner p {
     padding-left: 0;
 }
 .btn-default {
-    border-color: #fff;
-    color: #222;
-    background-color: #fff;
+    /*border-color: #fff;*/
+    color: white;
+    background-color: rgba(95,158,160,.7);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -290,8 +291,8 @@ header .header-content .header-content-inner p {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
-    color: #222;
-    background-color: #f2f2f2;
+    color: rgba(95,158,160,.7);
+    background-color: white;
 }
 .btn-default:active,
 .btn-default.active,
@@ -403,14 +404,17 @@ body {
     webkit-tap-highlight-color: #222;
 }
 #contact{
-    background: rgba(95,158,160,.7);
-    color: white;
+    background: white;
+    color: rgba(95,158,160,.7);
+}
+#contact i{
+    color: rgba(95,158,160,.7);
 }
 
 #contact h3, #contact a{
-    color: white;
+    color: rgba(95,158,160,.7);
 }
 #contact hr{
-    border-color: white;
+    border-color: rgba(95,158,160,.7);
 }
 
