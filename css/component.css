@@ -647,6 +647,10 @@
 		height: 40px;
 		margin: 0 10px;
 	}
+	.slideshow > nav span.current {
+		border-left: none;
+		border-right: none;
+	}
 }
 
 @media screen and (max-width: 24em) {
