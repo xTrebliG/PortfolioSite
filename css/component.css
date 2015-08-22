@@ -15,8 +15,8 @@
 	color: rgba(95,158,160,.7);
 }
 .slides img {
-	height: 700px;
-	width: 700px;
+	height: 500px;
+	width: 500px;
 }
 
 .no-js .slides {
@@ -634,6 +634,11 @@
 	.description {
 		font-size: 1.1em;
 	}
+
+	.slides img {
+		height: 300px;
+		width: 300px;
+	}
 	.slideshow > nav span:hover{
 		background-color: white;
 	}
@@ -646,9 +651,12 @@
 
 @media screen and (max-width: 24em) {
 	.slides {
-		height: 320px;
+		height: 450px;
 	}
-
+	.slides img {
+		height: 200px;
+		width: 200px;
+	}
 	.description {
 		font-size: 1em;
 		padding: 1.4em;
