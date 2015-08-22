@@ -13,14 +13,14 @@ hr {
     border-width: 3px;
 }
 hr.light {
-    border-color: #fff;
+    border-color: rgba(95,158,160,1);
 }
-a {
-    color: rgba(95,158,160,.7);
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
+/*a {*/
+    /*color: rgba(95,158,160,.7);*/
+    /*-webkit-transition: all .35s;*/
+    /*-moz-transition: all .35s;*/
+    /*transition: all .35s;*/
+/*}*/
 a:hover,
 a:focus {
     color: rgba(95,158,160,.7);
@@ -34,17 +34,17 @@ p {
     line-height: 1.5;
 }
 .bg-primary {
-    background-color: rgba(95,158,160,.7);
+    background-color: white;
 }
 .bg-dark {
     color: #fff;
     background-color: #222;
 }
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: rgba(95,158,160,.7);
 }
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 aside {
     padding: 50px 0;
@@ -86,6 +86,7 @@ aside {
 .navbar-default .nav>li.active>a:focus {
     color: rgba(95,158,160,.7)!important;
     background-color: transparent;
+    transition: color 1s;
 }
 
 .navbar-default .nav > li.active>a:hover,
@@ -117,7 +118,7 @@ aside {
         background-color: #fff;
     }
     .navbar-default.affix .navbar-header .navbar-brand {
-        font-size: 14px;
+        font-size: 18px;
         color: rgba(95,158,160,.7);
     }
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -198,6 +199,7 @@ header .header-content .header-content-inner p {
 }
 .section-heading {
     margin-top: 0;
+    color: rgba(95,158,160,1);
 }
 .service-box {
     margin: 50px auto 0;
@@ -269,16 +271,16 @@ header .header-content .header-content-inner p {
     margin: 0 auto 20px;
 }
 .text-primary {
-    color: rgba(95,158,160,.7);
+    color: white;
 }
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
 }
 .btn-default {
-    border-color: #fff;
-    color: #222;
-    background-color: #fff;
+    /*border-color: #fff;*/
+    color: white;
+    background-color: rgba(95,158,160,.7);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -290,8 +292,8 @@ header .header-content .header-content-inner p {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
-    color: #222;
-    background-color: #f2f2f2;
+    color: white;
+    background-color: rgba(95, 158, 160, 1);;
 }
 .btn-default:active,
 .btn-default.active,
@@ -337,9 +339,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: rgba(95,158,160,.7);
+    border-color: rgba(95,158,160,.1);
     color: #fff;
-    background-color: rgba(95,158,160,.7);
+    background-color: rgba(95,158,160,1);
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -401,4 +403,18 @@ img::-moz-selection {
 }
 body {
     webkit-tap-highlight-color: #222;
+}
+#contact{
+    background: white;
+    color: rgba(95,158,160,.7);
+}
+#contact i{
+    color: rgba(95,158,160,.7);
+}
+
+#contact h3, #contact a{
+    color: rgba(95,158,160,.7);
+}
+#contact hr{
+    border-color: rgba(95,158,160,.7);
 }
