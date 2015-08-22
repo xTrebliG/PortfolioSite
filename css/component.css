@@ -634,15 +634,13 @@
 	.description {
 		font-size: 1.1em;
 	}
-
-	.slideshow > nav span {
-		width: 20px;
-		height: 40px;
-		margin: 0 10px;
+	.slideshow > nav span:hover{
+		background-color: white;
 	}
-	.slideshow > nav span.current {
-		border-left: none;
-		border-right: none;
+	.slideshow > nav span {
+		width: 15px;
+		height: 15px;
+		margin: 0 10px;
 	}
 }
 
