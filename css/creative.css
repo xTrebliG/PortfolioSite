@@ -86,6 +86,7 @@ aside {
 .navbar-default .nav>li.active>a:focus {
     color: rgba(95,158,160,.7)!important;
     background-color: transparent;
+    transition: color 1s;
 }
 
 .navbar-default .nav > li.active>a:hover,
@@ -291,8 +292,8 @@ header .header-content .header-content-inner p {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
-    color: rgba(95,158,160,.7);
-    background-color: white;
+    color: white;
+    background-color: rgba(95, 158, 160, 1);;
 }
 .btn-default:active,
 .btn-default.active,
@@ -338,9 +339,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: rgba(95,158,160,.7);
+    border-color: rgba(95,158,160,.1);
     color: #fff;
-    background-color: rgba(95,158,160,.7);
+    background-color: rgba(95,158,160,1);
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -417,4 +418,3 @@ body {
 #contact hr{
     border-color: rgba(95,158,160,.7);
 }
-
