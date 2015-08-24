@@ -404,6 +404,10 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+.contact-btn, .resume-btn{
+  width: 155px;
+  margin: 0 15px;
+}
 #contact{
     background: white;
     color: rgba(95,158,160,.7);
@@ -417,4 +421,9 @@ body {
 }
 #contact hr{
     border-color: rgba(95,158,160,.7);
+}
+@media(max-width : 480px) {
+  .contact-btn, .resume-btn {
+    margin: 10px;
+  }
 }
