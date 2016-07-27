@@ -15,8 +15,8 @@
 	color: rgba(95,158,160,.7);
 }
 .slides img {
-	height: 700px;
-	width: 700px;
+	height: 500px;
+	width: 500px;
 }
 
 .no-js .slides {
@@ -39,7 +39,7 @@
 
 .slideshow > nav {
 	text-align: center;
-	margin-top: 20px;
+	padding-bottom: 10px;
 }
 
 .slideshow > nav span {
@@ -50,7 +50,7 @@
 	background: white;
 	cursor: pointer;
 	margin: 0 10px;
-	transition: background-color 0.2s;
+	/*transition: background-color 0.2s;*/
 }
 
 .slideshow > nav span:hover, .slideshow > nav span.current {
@@ -634,6 +634,11 @@
 	.description {
 		font-size: 1.1em;
 	}
+
+	.slides img {
+		height: 300px;
+		width: 300px;
+	}
 	.slideshow > nav span:hover{
 		background-color: white;
 	}
@@ -646,9 +651,12 @@
 
 @media screen and (max-width: 24em) {
 	.slides {
-		height: 320px;
+		height: 450px;
 	}
-
+	.slides img {
+		height: 200px;
+		width: 200px;
+	}
 	.description {
 		font-size: 1em;
 		padding: 1.4em;
