@@ -61,6 +61,7 @@ aside {
     transition: all .35s;
 }
 .navbar-default .navbar-header .navbar-brand {
+    opacity: 0;
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
@@ -118,6 +119,7 @@ aside {
         background-color: #fff;
     }
     .navbar-default.affix .navbar-header .navbar-brand {
+        opacity: 1;
         font-size: 18px;
         color: rgba(95,158,160,.7);
     }
@@ -140,7 +142,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/bg_blur.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -375,7 +377,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn {
     border: 0;
-    border-radius: 300px;
+    border-radius: 5px;
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
@@ -427,3 +429,58 @@ body {
     margin: 10px;
   }
 }
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+#about-btn, #main-hr{
+    opacity: 0;
+}
+.view-res-div{
+    margin-top: 40px;
+}
+#portfolio{
+    padding: 50px 0;
+    color: white;
+    background: rgba(95,158,160,1);
+}
+#portfolio .section-heading{
+    color: white;
+}
+ #portfolio hr.light{
+    border-color: white;
+ }
+ .project-holder{
+    padding: 20px;
+ }
+ .project-container{
+    border: 1px solid white;
+    background: white;
+    height: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    color: rgba(95,158,160,1);
+ }
+.project-container img{
+    height: 200px;
+}
+ #portfolio .project-container .section-heading{
+    color: rgba(95,158,160,1);
+ }
