@@ -458,28 +458,28 @@ body {
 }
 #portfolio{
     padding: 50px 0;
-    color: white;
-    background: rgba(95,158,160,1);
+    /*color: white;*/
+    /*background: rgba(95,158,160,1);*/
 }
 #portfolio .section-heading{
-    color: white;
+    /*color: white;*/
 }
  #portfolio hr.light{
-    border-color: white;
+    /*border-color: white;*/
  }
  .project-holder{
     padding: 20px;
  }
  .project-container{
     border: 1px solid white;
-    background: white;
+    /*background: white;*/
     height: 100%;
-    border-radius: 5px;
     padding: 20px;
-    color: rgba(95,158,160,1);
+    color: rgba(95,158,160,.7);
  }
 .project-container img{
-    height: 200px;
+    height: 275px;
+    width: 100%;
 }
  #portfolio .project-container .section-heading{
     color: rgba(95,158,160,1);

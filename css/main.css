@@ -1,0 +1,22 @@
+.project-container{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(95,158,160,.7);
+}
+.project-container .summary{
+    height: 275px;
+    display: table;
+}
+.project-container .summary p{
+    vertical-align: middle;
+    display: table-cell;
+    height: 100%;
+}
+.project-container .img-holder{
+    text-align: center;
+    width: 100%;
+}
+.summary h3{
+    position: absolute;
+    top: -15px;
+    width: 100%;
+}
